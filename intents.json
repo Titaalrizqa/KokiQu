@@ -15,7 +15,7 @@
     },
 
     {"tag": "goodbye",
-        "input": ["selamat tinggal", "sampai jumpa", "goodbye", "bye bye", "daa"],
-        "output": ["Selamat tinggal, dan sampai jumpa!"]
+        "patterns": ["selamat tinggal", "sampai jumpa", "goodbye", "bye bye", "daa"],
+        "responses": ["Selamat tinggal, dan sampai jumpa!"]
     }
 ]}
