@@ -1,0 +1,21 @@
+{"intents":[
+    {"tag": "greetings",
+        "patterns": ["halo", "hai", "hello", "hi", "hallo"],
+        "responses": ["Halo! Apa yang bisa saya bantu hari ini?"]
+    },
+
+    {"tag": "introduction",
+        "patterns": ["siapa nama kamu", "siapa kamu", "who are you", "what is your name", "kamu siapa"],
+        "responses": ["Nama saya KokiQu, chatbot asisten memasak anda. Salam kenal!"]
+    },
+
+    {"tag": "thank you",
+        "patterns": ["terima kasih", "makasih", "thank you", "thanks", "thx"],
+        "responses": ["Sama-sama, saya senang bisa membantu!"]
+    },
+
+    {"tag": "goodbye",
+        "input": ["selamat tinggal", "sampai jumpa", "goodbye", "bye bye", "daa"],
+        "output": ["Selamat tinggal, dan sampai jumpa!"]
+    }
+]}
