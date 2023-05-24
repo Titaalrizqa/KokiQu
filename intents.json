@@ -1,4 +1,9 @@
 {"intents":[
+    {"tag": "unknown",
+        "patterns": "default - words that are unknown",
+        "responses": "Maaf, saya tidak mengerti apa maksud anda :("
+    },
+
     {"tag": "greetings",
         "patterns": ["halo", "hai", "hello", "hi", "hallo"],
         "responses": ["Halo! Apa yang bisa saya bantu hari ini?"]

@@ -52,9 +52,6 @@ def predict_class(sentence):
         return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
     return return_list
 
-
-
-## OUTPUT
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
@@ -64,6 +61,9 @@ def get_response(intents_list, intents_json):
             break
     return result
 
+
+
+## OUTPUT
 print("Program is running...")
 
 while True:
